@@ -1,6 +1,7 @@
 import MySQLdb
 import os
 from dotenv import load_dotenv, find_dotenv
+# import pprint
 
 # Load our environment variables from the .env file in the root of our project.
 load_dotenv(find_dotenv())
@@ -10,6 +11,10 @@ host = os.environ.get("340DBHOST")
 user = os.environ.get("340DBUSER")
 passwd = os.environ.get("340DBPW")
 db = os.environ.get("340DB")
+
+# env_var = os.environ
+# print("User's Environment variable:")
+# pprint.pprint(dict(env_var), width = 1)
 
 # from db_credentials import host, user, passwd, db
 
