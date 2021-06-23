@@ -16,4 +16,4 @@
 host = 'classmysql.engr.oregonstate.edu'      # MUST BE THIS
 user = 'cs340_zhenjing'                        # don't forget the CS_340 prefix
 passwd = '3905'               # should only be 4 digits if default
-db = 'bsg'                                  
+db = 'cs340_zhenjing'                                  
